@@ -11,9 +11,9 @@ ngenes: 100
 ann_dir: /fs/cbcb-lab/rob/students/noor/Uncertainity/brain_sim/annotation
 txp_fasta: gencode.v26.transcripts.short.names.fa
 txdb: gencode.v26.annotation.sqlite
-cortex_tpms: data/frontal_cortex.tsv.gz
-meandisp: data/meanDispPairs.rda
-gc_params: data/fitpar_all.rda
+cortex_tpms: data_gen_sim/frontal_cortex.tsv.gz
+meandisp: data_gen_sim/meanDispPairs.rda
+gc_params: data_gen_sim/fitpar_all.rda
 
 sal_path: "/fs/cbcb-lab/rob/students/noor/Uncertainity/treeTerminusScripts/Chimpanzee/no_thresh_boot/.snakemake/conda/b5dc9e9ebd55a53225f40312a659f7a2/bin/salmon"
 sal_idx_path: "/fs/cbcb-lab/rob/students/noor/Uncertainity/brain_sim/annotation/sal_ind_nodup"

@@ -3,8 +3,9 @@ Title: Salmon quantification files and tree file obtained from TreeTerminus
     for a simulated dataset
 Version: 0.99.0
 Authors@R: 
-    person("Noor Pratap", "Singh", "noorpratap@gmail.com", 
+    person("Noor Pratap", "Singh", email="noorpratap@gmail.com", 
             role = c("aut", "cre"))
+Maintainer: Noor Pratap Singh <noorpratap@gmail.com>    
 Description: This packages provides a small simulated RNASeq data 
     which contains the Salmon quantified counts (with inferential replicates)
     and tree file obtained from TreeTerminus. The quantification counts were
@@ -12,7 +13,7 @@ Description: This packages provides a small simulated RNASeq data
     samples belonging to two conditions, 6 in each. For each RNA-Seq sample,
     100 gibbs samples have been generated generated. The Cons mode was used
     for obtaining the final forest of trees from TreeTerminus.
-License: BSD3
+License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
