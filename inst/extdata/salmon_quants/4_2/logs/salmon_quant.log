@@ -1,0 +1,59 @@
+[2023-12-14 00:13:48.455] [jointLog] [info] setting maxHashResizeThreads to 4
+[2023-12-14 00:13:48.455] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-12-14 00:13:48.455] [jointLog] [info] You specified --dumpEqWeights, which implies --dumpEq; that option has been enabled.
+[2023-12-14 00:13:48.455] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2023-12-14 00:13:48.455] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2023-12-14 00:13:48.455] [jointLog] [info] parsing read library format
+[2023-12-14 00:13:48.455] [jointLog] [info] There is 1 library.
+[2023-12-14 00:13:48.482] [jointLog] [info] Loading pufferfish index
+[2023-12-14 00:13:48.487] [jointLog] [info] Loading dense pufferfish index.
+[2023-12-14 00:13:50.872] [jointLog] [info] done
+[2023-12-14 00:13:50.880] [jointLog] [info] Index contained 198,540 targets
+[2023-12-14 00:13:52.011] [jointLog] [info] Number of decoys : 0
+[2023-12-14 00:13:52.253] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2023-12-14 00:14:15.095] [jointLog] [info] Computed 12,621 rich equivalence classes for further processing
+[2023-12-14 00:14:15.095] [jointLog] [info] Counted 3,228,893 total reads in the equivalence classes 
+[2023-12-14 00:14:15.099] [jointLog] [info] Number of mappings discarded because of alignment score : 2,968,108
+[2023-12-14 00:14:15.099] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 8
+[2023-12-14 00:14:15.099] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2023-12-14 00:14:15.099] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 80
+[2023-12-14 00:14:15.125] [jointLog] [warning] Only 3228893 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2023-12-14 00:14:15.125] [jointLog] [info] Mapping rate = 99.9998%
+
+[2023-12-14 00:14:15.125] [jointLog] [info] finished quantifyLibrary()
+[2023-12-14 00:14:15.128] [jointLog] [info] Starting optimizer
+[2023-12-14 00:14:15.217] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-12-14 00:14:15.232] [jointLog] [info] iteration = 0 | max rel diff. = 1475.06
+[2023-12-14 00:14:15.096] [fileLog] [info] 
+At end of round 0
+==================
+Observed 3228901 total fragments (3228901 in most recent round)
+
+[2023-12-14 00:14:15.364] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2023-12-14 00:14:16.245] [jointLog] [info] Computed expected counts (for bias correction)
+[2023-12-14 00:14:16.245] [jointLog] [info] processed bias for 0.1% of the transcripts
+[2023-12-14 00:14:16.296] [jointLog] [info] processed bias for 11.0% of the transcripts
+[2023-12-14 00:14:16.341] [jointLog] [info] processed bias for 20.9% of the transcripts
+[2023-12-14 00:14:16.360] [jointLog] [info] processed bias for 30.3% of the transcripts
+[2023-12-14 00:14:16.391] [jointLog] [info] processed bias for 40.4% of the transcripts
+[2023-12-14 00:14:16.421] [jointLog] [info] processed bias for 52.6% of the transcripts
+[2023-12-14 00:14:16.450] [jointLog] [info] processed bias for 60.7% of the transcripts
+[2023-12-14 00:14:16.489] [jointLog] [info] processed bias for 70.3% of the transcripts
+[2023-12-14 00:14:16.541] [jointLog] [info] processed bias for 81.1% of the transcripts
+[2023-12-14 00:14:16.602] [jointLog] [info] processed bias for 90.2% of the transcripts
+[2023-12-14 00:14:16.710] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2023-12-14 00:14:17.898] [jointLog] [info] iteration = 100 | max rel diff. = 1.51552
+[2023-12-14 00:14:19.214] [jointLog] [info] iteration = 200 | max rel diff. = 7.68531
+[2023-12-14 00:14:20.530] [jointLog] [info] iteration = 300 | max rel diff. = 0.0391185
+[2023-12-14 00:14:21.847] [jointLog] [info] iteration = 400 | max rel diff. = 0.03777
+[2023-12-14 00:14:22.584] [jointLog] [info] iteration = 457 | max rel diff. = 0.00217937
+[2023-12-14 00:14:22.620] [jointLog] [info] Finished optimizer
+[2023-12-14 00:14:22.620] [jointLog] [info] writing output 
+
+[2023-12-14 00:14:22.831] [jointLog] [info] Starting Gibbs Sampler
+[2023-12-14 00:17:10.571] [jointLog] [info] Finished Gibbs Sampler
+[2023-12-14 00:17:10.571] [jointLog] [info] writing equivalence class counts.
+[2023-12-14 00:17:10.900] [jointLog] [info] done writing equivalence class counts.

@@ -1,0 +1,24 @@
+seed: 1
+output_prefix: /fs/cbcb-lab/rob/students/noor/Uncertainity/treeterm-small-example
+
+replicates: [1,2,3,4,5,6]
+fc_min: 2
+fc_max: 6
+frag_len: 200
+lib_size: 1_300_000
+gc_bias: true
+ngenes: 100
+ann_dir: /fs/cbcb-lab/rob/students/noor/Uncertainity/brain_sim/annotation
+txp_fasta: gencode.v26.transcripts.short.names.fa
+txdb: gencode.v26.annotation.sqlite
+cortex_tpms: data/frontal_cortex.tsv.gz
+meandisp: data/meanDispPairs.rda
+gc_params: data/fitpar_all.rda
+
+sal_path: "/fs/cbcb-lab/rob/students/noor/Uncertainity/treeTerminusScripts/Chimpanzee/no_thresh_boot/.snakemake/conda/b5dc9e9ebd55a53225f40312a659f7a2/bin/salmon"
+sal_idx_path: "/fs/cbcb-lab/rob/students/noor/Uncertainity/brain_sim/annotation/sal_ind_nodup"
+posterior_type: gibbs #specific type of posterior sampling gibbs or bootstrap
+thinning_factor: 100
+nreplicates: 100 # posterior samples
+
+treeterm_path: "/fs/cbcb-lab/rob/students/noor/Uncertainity/TreeTerminus/target/release/treeterminus"

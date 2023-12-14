@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /fs/cbcb-lab/rob/students/noor/Uncertainity/treeterm-small-example/output/seed=1_fc=2:6/reads_gc=True/4/sample_02_1_shuffled.fa.gz, /fs/cbcb-lab/rob/students/noor/Uncertainity/treeterm-small-example/output/seed=1_fc=2:6/reads_gc=True/4/sample_02_2_shuffled.fa.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 3228893,
+    "num_assigned_fragments": 3228893,
+    "num_frags_with_concordant_consistent_mappings": 3422927,
+    "num_frags_with_inconsistent_or_orphan_mappings": 2669,
+    "strand_mapping_bias": 0.4997015711991521,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 1710442,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 1712485,
+    "SF": 1349,
+    "SR": 1320,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
